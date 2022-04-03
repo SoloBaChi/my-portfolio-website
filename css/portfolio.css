@@ -33,11 +33,12 @@ h1,h2,h3{
 margin:0;
 }
 a{
-	color:var(--lightpink);
+	color:var(--orange);
 }
 a:hover{
-	color:var(--orange);
+	color:var(--white);
 	text-decoration:none;
+	transition:color 0.6s ease-out;
 }
 img{
 	width:100%;
@@ -46,7 +47,8 @@ img{
 
 /*background color divs*/
 .section-bg{
-	background-color:slategrey;
+	background-color:#3f3f3f;
+	max-width: 100%;
 }
 .gradient{
  background:linear-gradient(90deg,rgba(255,23,228,1) 0%, rgba(134,251,1) 100%);
@@ -57,6 +59,7 @@ img{
 }
 .section-dkblue{
 	background-color:var(--dkblue);
+	max-width:100%;
 }
 
 /*site-intro styles*/
@@ -80,13 +83,13 @@ img{
 	display:block;
 }
 #intro-section h2{
-	font-size:4rem;
+	font-size:3rem;
 	font-weight:normal;
 }
 
 /*site-contact section styles*/
 #contact-section{
-	width:400px;
+	max-width:400px;
 	margin:0 auto;
 	text-align:center;
 	padding:3rem 0;
