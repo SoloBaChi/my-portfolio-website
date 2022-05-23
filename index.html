@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/portfolio.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen+Mono&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/16500a9e6b.js"></script>
     <title>Solomon Chiakonam Joboson</title>
@@ -76,8 +77,8 @@
   <div class="section-dkblue">
   <section id="project-section">
   <h2>Recent Projects</h2>
-  <article>
-    <div class="text">
+  <article >
+    <div class="text" data-aos="fade-right">
     <h4>Latest Project</h4>
     <h3>E-commerce App (in Progress)</h3>
     <p class="blackbox">just like other existing e-commerce apps, this app was designed to enable users purchase headphones at the comfort of their home using mobile device. the scope of this project is to create a prototype that is responsive across different screen sizes. click  <a href="https://solobachi.github.io/online-shopping-app/" target="_blank"> to view this project </a>.</p>
@@ -89,11 +90,11 @@
        <li>React</li>
     </ul>
   </div>
-    <img src="images/webstore_Xenon_Desktop_1500x1200_6cae592d-2dfd-48be-be29-68696297d4da_1080x.jpg" />
+    <img src="images/webstore_Xenon_Desktop_1500x1200_6cae592d-2dfd-48be-be29-68696297d4da_1080x.jpg" data-aos="fade-left" />
   </article>
 
   <article class="reverse">
- <div class="text">
+ <div class="text" data-aos="fade-right">
 <h4>Mini Project</h4>
 <h3>Todo App</h3>
 <p class="blackbox">In this app a user can add, delete, submit and edit items. to edit an item the user is required to double click on the three dots below the app title. this is can be use for keeping records of your daily/weekly task. it will persist your data in the browser local storage. so wether you reload or close your app or reopened it, you have access to your todos. click <a href="https://solobachi.github.io/React-Todo-App" target="_blank"> to view this project </a></p>
@@ -106,11 +107,11 @@
   <li>Reactstrap</li>
   </ul>
   </div>
-  <img src="images/screencapture-solobachi-github-io-React-Todo-App-2022-04-03-01_06_01.jpg" />
+  <img src="images/screencapture-solobachi-github-io-React-Todo-App-2022-04-03-01_06_01.jpg" data-aos="fade-left" />
   </article>
 
 <article>
-  <div class="text">
+  <div class="text" class="text" data-aos="fade-right">
   <h4>Fullstack Project</h4>
   <h3>Hire Purchase App (still in progress) </h3>
 <p class="blackbox">This is a platform for making installment plans. its purpose was targeted towards leveraging unemployment by providing a client that wants to start a capital intensive business an opportunity where he/she can be rendered access of ownership to a product within a specific interval of time. click  <a href="https://github.com/SoloBaChi/hire-purchase-backend/tree/dev" target="_blank"> to view this project </a></p>
@@ -124,11 +125,11 @@
     <li>REST</li>
   </ul>
   </div>
-  <img src="https://www.scnsoft.com/boss/images/1016-2-mobile-banking-app-for-hire-purchase-cards---sciencesoft.png" />
+  <img src="https://www.scnsoft.com/boss/images/1016-2-mobile-banking-app-for-hire-purchase-cards---sciencesoft.png" class="text" data-aos="fade-left" />
   </article>
 
   <article>
-  <div class="text">
+  <div class="text class="text" data-aos="fade-right"">
   <h4>Pet Store Project</h4>
   <h3>Pet Niger</h3>
 <p class="blackbox">This is a platform for adopting pets. the site was specifically developed for rendering pet services. click  <a href="https://solobachi.github.io/Pet-Niger/" target="_blank"> to view this project </a></p>
@@ -138,7 +139,7 @@
     <li>CSS</li>
   </ul>
   </div>
-  <img src="images/pet-niger-image.jpg" />
+  <img src="images/pet-niger-image.jpg" class="text" data-aos="fade-left" />
   </article>
 </section>
 </div>
@@ -160,5 +161,14 @@
     </ul>
       <p><small>&copy; 2022 Solomon Chiakonam .All rights reserved.</small></p>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+     {
+      offset:300, 
+      duration:1000,
+    }
+      );
+    </script>
   </body>
 </html>
