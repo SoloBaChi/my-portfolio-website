@@ -46,6 +46,9 @@ img{
 /*end of some basic styles*/
 
 /*background color divs*/
+span.fa-code{
+margin-right:1rem;
+}
 .section-bg{
 	background-color:#3f3f3f;
 	max-width: 100%;
