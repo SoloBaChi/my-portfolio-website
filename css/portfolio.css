@@ -259,6 +259,7 @@ border-left:none;
 		display:grid;
 		grid-template-columns:repeat(12,1fr);
 		gap:1rem;
+		margin-bottom:2rem;
 	}
 	#project-section img{
      grid-column:1/6;
