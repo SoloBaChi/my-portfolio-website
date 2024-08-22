@@ -269,7 +269,7 @@ margin-bottom:2rem;
 		display:grid;
 		grid-template-columns:repeat(12,1fr);
 		gap:1rem;
-		margin-bottom:2rem;
+		margin-bottom:4rem;
 	}
 	#project-section img{
      grid-column:1/6;
