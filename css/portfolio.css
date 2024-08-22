@@ -53,7 +53,7 @@ span.fa-code{
 margin-right:1rem;
 }
 .section-bg{
-	background-color:#3f3f3f;
+	/* background-color:#3f3f3f; */
 	max-width: 100%;
 }
 .gradient{
@@ -232,7 +232,8 @@ font-size:1.5rem;
 	border-top:1px solid var(--aqua);
 	border-bottom:1px solid var(--aqua);
 	border-radius:25px;
-	padding:1rem;
+	padding:0.5rem;
+	min-height:180px;
 }
 #project-section .reverse img{
 border-right:1px solid var(--aqua);	
@@ -248,9 +249,18 @@ border-left:none;
 	display:block;
 	width:50%;
 }
-
+article{
+margin-bottom:2rem;
+}
 /*making our navabar responsive*/
-@media(min-width: 500px){
+/* @media(min-width: 500px){
+	
+} */
+
+
+
+
+@media(min-width:810px){
 	/*#project-section{
 		max-width:1000px;
 		margin:0 auto
@@ -263,7 +273,8 @@ border-left:none;
 	}
 	#project-section img{
      grid-column:1/6;
-     grid-row:1/2;  
+     grid-row:1/6;  
+	 min-height:180px;
 	}
 	.text{
 		grid-column:5/11;
@@ -292,12 +303,6 @@ border-left:none;
 	display:block;
 	width:500%;
 }
-}
-
-
-
-
-@media(min-width:850px){
 	#nav-section nav{
 		max-width:1200;/*no more than 1200pixels wide*/
 		margin:0 auto;
